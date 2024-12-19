@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('SCM Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/monikarangari/voda-assignment2-jenkins'
+                git branch: 'master', url: 'https://github.com/monikarangari/voda-assignment-jenkins'
             }
         }
 
