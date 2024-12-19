@@ -20,3 +20,6 @@ Steps:
 7. Add the Dockerhub credentials in Manage Jenkins -> Credentials section.
 8. Configure Global Email Settings in Jenkins (SMTP server, credentials, etc.).
 9. Create a new pipeline job and mention the repository URL nd run the job.
+10. Dockerhub URL - https://hub.docker.com/r/monikarangari/mavenproject
+11. All the stages and configurations are visible in the Jenkins dashboard.
+   ![image](https://github.com/user-attachments/assets/c353ffdb-c2bc-4444-bc10-309dec37aa28)
