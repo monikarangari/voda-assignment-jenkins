@@ -43,6 +43,7 @@ pipeline {
                 withDockerRegistry(credentialsId: 'DockerHubID', url: 'https://index.docker.io/v1/') {
                     sh 'docker push monikarangari/mavenproject:1.0'
                 }
+                
             }
         }
     }
